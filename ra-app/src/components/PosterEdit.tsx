@@ -6,12 +6,12 @@ import {
   TextInput,
 } from "react-admin";
 
-export const ProductEdit = () => (
+export const PosterEdit = () => (
   <Edit>
     <SimpleForm>
       <TextInput source="id" />
       <ReferenceInput source="category_id" reference="categories" />
-      <TextInput source="reference" />
+      <TextInput source="title" />
       <NumberInput source="width" />
       <NumberInput source="height" />
       <NumberInput source="price" />
